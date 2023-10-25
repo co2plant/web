@@ -1,0 +1,96 @@
+# homepage
+homepage:
+  head:
+    title: "Home | [이름]" # TODO: 이름 추가
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m [이름]" # TODO: 이름 추가
+  subtitle: "Developer"
+  description: "[소개]" # TODO: 소개 추가
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/" # TODO: linkedin 추가
+
+    - icon: "github"
+      URL: "https://github.com/" # TODO: github 추가
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    [소개내용 1문단]
+    </p>
+    <p class="lead">
+    [소개내용 2문단]
+    </p>' # TODO: 소개내용 추가
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com" # TODO: linkedin 추가
+  image:
+    x: "img/who-am-i/user-picture.png" # TODO: 프로필 이미지 주소 변경
+    _2x: "img/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items: # TODO: 학력 추가
+    - university: "University of 학교명"
+      year: "[입학년도]-[졸업년도]"
+      degree: "[학위 및 전공]"
+
+# projects
+projects:
+  title: "Projects"
+  enable: true
+
+  works: # TODO: 프로젝트 추가
+    - title: "[프로젝트1]"
+      description: "[프로젝트 1 설명]"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "[프로젝트2]"
+      description: "[프로젝트 2설명]"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  email:
+    title: "Email"
+    email: '<a href="mailto:team@radity.com">[email 주소]</a>' # TODO: 이메일주소 추가
+  address:
+    title: "Address"
+    address: "[주소 (지역명)]" # TODO: 주소 추가
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
