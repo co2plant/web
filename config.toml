@@ -1,4 +1,4 @@
-baseURL = "https://<본인id>.github.io" # TODO: github.io 주소 수정
+baseURL = "https://co2plant.github.io" # TODO: github.io 주소 수정
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
@@ -63,8 +63,8 @@ theme = "raditian-free-hugo-theme"
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "이름" # TODO: 이름 추가
-    text2 = "성" # TODO: 성 추가
+    text1 = "YoungJae" # TODO: 이름 추가
+    text2 = "Jo" # TODO: 성 추가
 
   [params.footer]
       copyright = "© All rights reserved."
